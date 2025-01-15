@@ -7,7 +7,7 @@
 
 /* Body*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #333;
   line-height: 1.6;
   background-color: #fff;
@@ -15,35 +15,35 @@ body {
 
 /* Header Section*/
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #5a3d2b;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #5a3d2b;
+  color: #fff;
 }
 
 header .logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #f7e2c4;
+  color: #f7e2c4;
 }
 
 /* Hero Section*/
@@ -57,38 +57,85 @@ header nav ul li a:hover {
 }
 
 .hero-content {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .hero-content h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-    color: #5a3d2b;
-    margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: #5a3d2b;
+  margin-bottom: 20px;
 }
 
 .hero-content p {
-    font-size: 18px;
-    margin-bottom: 30px;
-    color: #5a3d2b;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #5a3d2b;
 }
 
 .cta-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #5a3d2b;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #5a3d2b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .cta-button:hover {
-    background-color: #3e281a;
+  background-color: #3e281a;
 }
 
 .hero-image img {
-    max-width: 100%;
-    border-radius: 10pxs;
+  max-width: 100%;
+  border-radius: 10pxs;
+}
+
+/* Features Section*/
+.features-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f7e2c4;
+}
+
+.features-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #5a3d2b;
+  margin-bottom: 20px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 250px;
+  text-align: center;
+}
+
+.feature-item img {
+  max-width: 80px;
+  margin-bottom: 15px;
+}
+
+.feature-item h3 {
+  font-size: 20px;
+  color: #5a3d2b;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+  color: #333;
 }
