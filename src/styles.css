@@ -234,7 +234,7 @@ header nav ul li a:hover {
 .cta-section {
   padding: 60px;
   text-align: center;
-  background-color: #5a3d2b;
+  background-color: #deb887;
   color: #fff;
 }
 
@@ -270,4 +270,69 @@ header nav ul li a:hover {
 .cta-button:hover {
   background-color: #f8d2b0;
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer Section */
+.footer {
+  padding: 40px 20px;
+  background-color: #5a3d2b;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+}
+
+.footer-logo p {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fbe7d4;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials a {
+  text-decoration: none;
+}
+
+.footer-socials a svg {
+  margin: 0 10px;
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.footer-socials a:hover svg {
+  transform: scale(1.2);
+  fill: #fbe7d4;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
 }
