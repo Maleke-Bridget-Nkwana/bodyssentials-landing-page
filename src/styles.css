@@ -299,47 +299,77 @@ header nav ul li a:hover {
 .footer-logo h2 {
   font-family: "Playfair Display", serif;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
 .footer-logo p {
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   margin-top: 5px;
 }
 
+.footer-links h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
 .footer-links ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-links li {
+.footer-links ul li {
   margin-bottom: 10px;
 }
 
-.footer-links a {
-  color: #fbe7d4;
+.footer-links ul li a {
+  color: #fff;
   text-decoration: none;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  transition: color 0.3s ease;
 }
 
-.footer-links a:hover {
+.footer-links ul li a:hover {
   text-decoration: underline;
+}
+
+.footer-contact h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-contact p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
 .footer-socials a {
   text-decoration: none;
+  margin-right: 10px;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
 }
 
 .footer-socials a svg {
   margin: 0 10px;
+  fill: #fff;
   transition: transform 0.3s ease, fill 0.3s ease;
 }
 
 .footer-socials a:hover svg {
   transform: scale(1.2);
-  fill: #fbe7d4;
+  fill: #deb887;
 }
 
 .footer-bottom {
-  margin-top: 20px;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #e4cbb2;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  color: #e4cbb2;
 }
