@@ -186,3 +186,46 @@ header nav ul li a:hover {
   font-size: 16px;
   color: #333;
 }
+
+/* Testimonials Section*/
+.testimonials-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fbe7d4;
+}
+
+.testimonials-section h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #5a3d2b;
+  margin-bottom: 30px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 250px;
+}
+
+.testimonial-item p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.testimonial-item h3 {
+  font-size: 18px;
+  color: #5a3d2b;
+  font-weight: bold;
+}
