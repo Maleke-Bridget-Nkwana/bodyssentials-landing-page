@@ -215,6 +215,35 @@ header nav ul li a:hover {
   display: block; /* Show answer on hover or focus */
 }
 
+/* Usage Instructions Section */
+#usage-instructions {
+  background-color: #fefaf4; /* Soft cream background */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#usage-instructions h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19; /* Deep brown */
+  margin-bottom: 20px;
+}
+
+#usage-instructions ol {
+  list-style-type: decimal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #4a2e19;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#usage-instructions ol li {
+  margin-bottom: 15px;
+}
+
 /* Benefits Section*/
 .benefits-section {
   padding: 40px 20px;
