@@ -77,22 +77,23 @@ header nav ul li a:hover {
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column-reverse;
   align-items: center;
   gap: 20px;
   text-align: center;
+  max-width: 50%;
 }
 
 .hero-content h1 {
   font-family: "Playfair Display", serif;
-  font-size: 36px;
+  font-size: 48px;
+  font-weight: bold;
   color: #5a3d2b;
-  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .hero-content p {
   font-size: 18px;
+  line-height: 1.6;
   margin-bottom: 30px;
   color: #5a3d2b;
 }
@@ -476,9 +477,34 @@ header nav ul li a:hover {
 }
 
 @media (max-width: 767px) and (min-width: 481px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+  }
+
   .hero-content {
     flex-direction: column-reverse;
     text-align: center;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+  }
+
+  .hero-image img {
+    max-width: 80%;
+    margin-top: 20px;
   }
 
   h1 {
