@@ -15,6 +15,9 @@ body {
   color: #333;
   line-height: 1.6;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 /* Header Section*/
@@ -33,10 +36,23 @@ header .logo {
   font-weight: bold;
 }
 
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
 header nav ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
 }
 
 header nav ul li a {
@@ -94,7 +110,8 @@ header nav ul li a:hover {
 
 .hero-image img {
   max-width: 100%;
-  border-radius: 10pxs;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* Features Section*/
