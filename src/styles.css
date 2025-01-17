@@ -77,6 +77,11 @@ header nav ul li a:hover {
 }
 
 .hero-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
   max-width: 50%;
 }
 
@@ -84,6 +89,7 @@ header nav ul li a:hover {
   font-family: "Playfair Display", serif;
   font-size: 36px;
   color: #5a3d2b;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
