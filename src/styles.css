@@ -166,6 +166,55 @@ header nav ul li a:hover {
   color: #333;
 }
 
+/* FAQ Section*/
+#faq {
+  background-color: #f8f1e7;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+#faq h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8c6239;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid #d6c2a5;
+}
+
+.faq-answer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #4a2e19;
+  padding: 10px 0;
+  display: none; /* Hidden by default */
+}
+
+.faq-question:focus + .faq-answer,
+.faq-question:hover + .faq-answer {
+  display: block; /* Show answer on hover or focus */
+}
+
 /* Benefits Section*/
 .benefits-section {
   padding: 40px 20px;
