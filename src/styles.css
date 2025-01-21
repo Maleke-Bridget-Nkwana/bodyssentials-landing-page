@@ -390,6 +390,50 @@ header nav ul li a:hover {
   border-radius: 10px;
 }
 
+/* Fragrance Section */
+#fragrance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff8f0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.fragrance-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.fragrance-container h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+}
+
+.fragrance-container p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #5c3a24;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 10px;
+}
+
+.fragrance-image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.fragrance-image img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /* Storage Instructions Section */
 #storage-instructions {
   background-color: #f5ede4;
