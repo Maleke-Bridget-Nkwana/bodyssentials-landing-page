@@ -263,10 +263,10 @@ header nav ul li a:hover {
 /* FAQ Section*/
 #faq {
   background-color: #f8f1e7;
-  padding: 40px;
+  padding: 50px 20px;
   border-radius: 10px;
-  margin: 40px auto;
-  max-width: 800px;
+  margin: 50px auto;
+  max-width: 900px;
   text-align: left;
 }
 
@@ -274,7 +274,7 @@ header nav ul li a:hover {
   font-family: "Playfair Display", serif;
   font-size: 32px;
   color: #4a2e19;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -299,6 +299,7 @@ header nav ul li a:hover {
 .faq-answer {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
+  line-height: 1.6;
   color: #4a2e19;
   padding: 10px 0;
   display: none; /* Hidden by default */
@@ -387,6 +388,29 @@ header nav ul li a:hover {
   max-width: 350px;
   height: auto;
   border-radius: 10px;
+}
+
+/* Storage Instructions Section */
+#storage-instructions {
+  background-color: #f5ede4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#storage-instructions h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+}
+
+#storage-instructions p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #5c3a24;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* CTA Section */
