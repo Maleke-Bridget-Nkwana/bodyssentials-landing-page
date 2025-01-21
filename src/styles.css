@@ -497,6 +497,32 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 
+/* Packaging Information Section*/
+.packaging-info {
+  background-color: #fef8f3;
+  padding: 40px 20px;
+}
+
+.packaging-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.packaging-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #8b572a;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.packaging-container p {
+  font-family: "Open Sans", sans-serif;
+  color: #8c6239;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 /* Testing Information Section */
 #testing-information {
   background-color: #fff;
