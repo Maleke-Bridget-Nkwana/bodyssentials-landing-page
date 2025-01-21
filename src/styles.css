@@ -459,6 +459,22 @@ header nav ul li a:hover {
   margin: 0 auto 10px;
 }
 
+#allergens-information ul {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #5c3a24;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+#allergens-information ul li {
+  margin-left: 20px;
+}
+
 /* CTA Section */
 .cta-section {
   padding: 60px 20px;
