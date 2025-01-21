@@ -413,6 +413,29 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 
+/* Testing Information Section */
+#testing-information {
+  background-color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#testing-information h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+}
+
+#testing-information p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #5c3a24;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto 10px;
+}
+
 /* CTA Section */
 .cta-section {
   padding: 60px 20px;
