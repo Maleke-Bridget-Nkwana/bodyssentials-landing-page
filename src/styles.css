@@ -166,84 +166,6 @@ header nav ul li a:hover {
   color: #333;
 }
 
-/* FAQ Section*/
-#faq {
-  background-color: #f8f1e7;
-  padding: 40px;
-  border-radius: 10px;
-  margin: 40px auto;
-  max-width: 800px;
-  text-align: left;
-}
-
-#faq h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 32px;
-  color: #4a2e19;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.faq-item {
-  margin-bottom: 20px;
-}
-
-.faq-question {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #8c6239;
-  background: none;
-  border: none;
-  text-align: left;
-  width: 100%;
-  cursor: pointer;
-  padding: 10px;
-  border-bottom: 2px solid #d6c2a5;
-}
-
-.faq-answer {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  color: #4a2e19;
-  padding: 10px 0;
-  display: none; /* Hidden by default */
-}
-
-.faq-question:focus + .faq-answer,
-.faq-question:hover + .faq-answer {
-  display: block; /* Show answer on hover or focus */
-}
-
-/* Usage Instructions Section */
-#usage-instructions {
-  background-color: #fefaf4; /* Soft cream background */
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#usage-instructions h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 28px;
-  color: #4a2e19; /* Deep brown */
-  margin-bottom: 20px;
-}
-
-#usage-instructions ol {
-  list-style-type: decimal;
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  color: #4a2e19;
-  padding-left: 20px;
-  text-align: left;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#usage-instructions ol li {
-  margin-bottom: 15px;
-}
-
 /* Benefits Section*/
 .benefits-section {
   padding: 40px 20px;
@@ -336,6 +258,135 @@ header nav ul li a:hover {
   font-size: 18px;
   color: #5a3d2b;
   font-weight: bold;
+}
+
+/* FAQ Section*/
+#faq {
+  background-color: #f8f1e7;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
+#faq h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #8c6239;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid #d6c2a5;
+}
+
+.faq-answer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #4a2e19;
+  padding: 10px 0;
+  display: none; /* Hidden by default */
+}
+
+.faq-question:focus + .faq-answer,
+.faq-question:hover + .faq-answer {
+  display: block; /* Show answer on hover or focus */
+}
+
+/* Usage Instructions Section */
+#usage-instructions {
+  background-color: #fefaf4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#usage-instructions h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19;
+  margin-bottom: 20px;
+}
+
+#usage-instructions ol {
+  list-style-type: decimal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #4a2e19;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#usage-instructions ol li {
+  margin-bottom: 15px;
+}
+
+/* Ingredients Section */
+#ingredients {
+  background-color: #f8f1e7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#ingredients h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: #4a2e19;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ingredients-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.ingredients-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #4a2e19;
+  max-width: 600px;
+}
+
+#ingredients ul {
+  list-style-type: none;
+  padding-left: 40px;
+}
+
+#ingredients ul li {
+  margin-bottom: 10px;
+}
+
+#ingredients .note {
+  font-size: 16px;
+  color: #8c6239;
+  margin-top: 20px;
+}
+
+.ingredients-image img {
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* CTA Section */
@@ -546,6 +597,16 @@ header nav ul li a:hover {
 
   .features {
     grid-template-columns: 1fr;
+  }
+
+  .ingredients-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ingredients-image img {
+    margin-top: 20px;
+    max-width: 100%;
   }
 
   .footer-content {
