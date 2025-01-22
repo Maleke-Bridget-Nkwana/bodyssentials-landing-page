@@ -71,7 +71,7 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 50px 20px;
   background: linear-gradient(to right, #f7e2c4, #deb887);
   min-height: 90vh;
 }
@@ -114,7 +114,7 @@ header nav ul li a:hover {
 }
 
 .hero-image img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 10px;
 }
@@ -747,6 +747,27 @@ header nav ul li a:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #e4cbb2;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section {
+  animation: fadeIn 1s ease-in-out;
+  opacity: 0; /* Start invisible */
+}
+
+.section-visible {
+  opacity: 1;
 }
 
 /* Responsive Layout Adjustments */
